@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Exemplo — Horário de Atendimento</title>
+  <style>
+    /* Apenas para melhor visualização, pode alterar à vontade */
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; }
+    header { background: #eef6ff; padding: 12px; text-align: center; }
+    nav { background: #0f6cbd; padding: 8px; }
+    nav a { color: #fff; text-decoration: none; margin-right: 12px; font-weight: bold; }
+    main { padding: 16px; min-height: 60vh; background: #fafafa; }
+    footer { background: #222; color: #eee; padding: 12px; text-align: center; }
+    img.header-img { max-width: 100%; height: auto; border: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+    form label { display: block; margin: 8px 0 4px; }
+    form input, form textarea, form button { width: 100%; padding: 8px; box-sizing: border-box; }
+    form textarea { min-height: 120px; }
+    .container { max-width: 980px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="index.html">Página Principal</a>
+      <a href="sobre.html">Sobre a clínica</a>
+      <a href="horarios.html">Horário de Atendimento</a>
+      <a href="contato.html">Contato</a>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <img class="header-img" src="https://via.placeholder.com/1200x300?text=Horarios+de+Atendimento" alt="Imagem do cabeçalho da página Horários">
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Horário de Atendimento e Tabela</h1>
+<p>Confira horários e valores por dia da semana.</p>
+
+<h2>Horários</h2>
+<table summary="Tabela de horários por serviço e dia da semana">
+  <thead>
+    <tr>
+      <th scope="col">Serviços</th>
+      <th scope="col">Segunda a Sexta</th>
+      <th scope="col">Sábados</th>
+      <th scope="col">Feriados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Clínica geral</th>
+      <td>08h - 19h</td>
+      <td>08h - 14h</td>
+      <td>08h - 14h</td>
+    </tr>
+    <tr>
+      <th scope="row">Psicologia</th>
+      <td>08h - 19h</td>
+      <td>08h - 14h</td>
+      <td>08h - 14h</td>
+    </tr>
+    <tr>
+      <th scope="row">Pediatria</th>
+      <td>08h - 19h</td>
+      <td>08h - 18h</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row">Oftalmologia</th>
+      <td>08h - 19h</td>
+      <td>08h - 18h</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Horários sujeitos a alteração em datas especiais.</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h2>Valores</h2>
+<table summary="Tabela de preços por serviço e dia da semana">
+  <thead>
+    <tr>
+      <th scope="col">Serviços</th>
+      <th scope="col">Segunda a Sexta</th>
+      <th scope="col">Sábados</th>
+      <th scope="col">Feriados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Clínica geral</th>
+      <td>R$ 180</td>
+      <td>R$ 180</td>
+      <td>R$ 220</td>
+    </tr>
+    <tr>
+      <th scope="row">Psicologia</th>
+      <td>R$ 200</td>
+      <td>R$ 200</td>
+      <td>R$ 240</td>
+    </tr>
+    <tr>
+      <th scope="row">Pediatria</th>
+      <td>R$ 220</td>
+      <td>R$ 240</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row">Oftalmologia</th>
+      <td>R$ 250</td>
+      <td>R$ 270</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Consulte planos de saúde e condições especiais.</td>
+    </tr>
+  </tfoot>
+</table>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Clínica Exemplo</strong> • CNPJ 00.000.000/0000-00</p>
+      <p>Av. Exemplo, 123 — Centro — Cidade/UF • Tel: (11) 90000-0000 • WhatsApp: (11) 98888-8888</p>
+    </div>
+  </footer>
+</body>
+</html>

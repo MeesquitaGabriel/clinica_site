@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Exemplo — Contato</title>
+  <style>
+    /* Apenas para melhor visualização, pode alterar à vontade */
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; }
+    header { background: #eef6ff; padding: 12px; text-align: center; }
+    nav { background: #0f6cbd; padding: 8px; }
+    nav a { color: #fff; text-decoration: none; margin-right: 12px; font-weight: bold; }
+    main { padding: 16px; min-height: 60vh; background: #fafafa; }
+    footer { background: #222; color: #eee; padding: 12px; text-align: center; }
+    img.header-img { max-width: 100%; height: auto; border: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+    form label { display: block; margin: 8px 0 4px; }
+    form input, form textarea, form button { width: 100%; padding: 8px; box-sizing: border-box; }
+    form textarea { min-height: 120px; }
+    .container { max-width: 980px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="index.html">Página Principal</a>
+      <a href="sobre.html">Sobre a clínica</a>
+      <a href="horarios.html">Horário de Atendimento</a>
+      <a href="contato.html">Contato</a>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <img class="header-img" src="https://via.placeholder.com/1200x300?text=Contato" alt="Imagem do cabeçalho da página Contato">
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Contato</h1>
+<p><strong>Telefones:</strong> (11) 90000-0000 • <strong>WhatsApp:</strong> (11) 98888-8888</p>
+<p><strong>Endereço:</strong> Av. Exemplo, 123 — Centro — Cidade/UF — CEP 00000-000</p>
+
+<h2>Como chegar</h2>
+<p>Veja o mapa com nossa localização:</p>
+<iframe
+  title="Mapa da Clínica Exemplo"
+  src="https://www.google.com/maps?q=-23.561414,-46.655881&hl=pt-BR&z=15&output=embed"
+  width="100%"
+  height="320"
+  style="border:0;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<h2>Fale conosco</h2>
+<form action="#" method="post">
+  <label for="nome">Nome</label>
+  <input id="nome" name="nome" type="text" required>
+
+  <label for="email">E-mail</label>
+  <input id="email" name="email" type="email" required>
+
+  <label for="assunto">Assunto</label>
+  <input id="assunto" name="assunto" type="text" required>
+
+  <label for="mensagem">Mensagem</label>
+  <textarea id="mensagem" name="mensagem" required></textarea>
+
+  <div style="display:flex; gap:12px; margin-top:12px;">
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+  </div>
+</form>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Clínica Exemplo</strong> • CNPJ 00.000.000/0000-00</p>
+      <p>Av. Exemplo, 123 — Centro — Cidade/UF • Tel: (11) 90000-0000 • WhatsApp: (11) 98888-8888</p>
+    </div>
+  </footer>
+</body>
+</html>
